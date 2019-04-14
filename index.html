@@ -9,7 +9,127 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <button type="button" class="btn btn-primary">Primary</button>
+    <header class="header">
+        <img src="./styles/images/logo.png" class="logo">
+        <p class="header-text"> Craving for some delicious sandwiches? We've got the best in town that not even kings can refuse. Select the sandwich that you want to eat and we will deliver it to you with supersonic speed.</p>
+    </header>
+    <div class="menu col-12 col-md-5">
+        <!-- bread checkbox -->
+        <div class="container" id="bread-menu">
+            <h2 class="h2-class">What kind of Bread would you like?</h2>
+            <form action="/action_page.php">
+                <input type="radio" name="Bread" value="White Bread" checked>
+                <label for="White Bread">White Bread</label>
+                <br>
+                <input type="radio" name="Bread" value="Wheat Bread">
+                <label for="Wheat Bread">Wheat Bread</label>
+                <br>
+                <input type="radio" name="Bread" value="Garlic Bread">
+                <label for="Garlic Bread">Garlic Bread</label>
+                <br><br>
+            </form>
+        </div>
+        <!-- Meat optins -->
+        <div class="container" id="meat-menu">
+            <h2 class="h2-class">We've got the Meats!!! Make your choices.</h2>
+            <h6>Choose all that apply</h6>
+            <form action="/action_page.php">
+                <input type="checkbox" name="Chicken" value="Chicken" checked>
+                <label for="Chicken">Chicken</label>
+                <br>
+                <input type="checkbox" name="Ham" value="Ham">
+                <label for="Ham">Ham</label>
+                <br>
+                <input type="checkbox" name="Turkey" value="Turkey">
+                <label for="Turkey">Turkey</label>
+                <br>
+                <input type="checkbox" name="Pork" value="Pork">
+                <label for="Pork">Pork</label>
+                <br>
+                <input type="checkbox" name="Tuna" value="Tuna">
+                <label for="Tuna">Tuna</label>
+                <br>
+                <input type="checkbox" name="Lamb" value="Lamb">
+                <label for="Lamb">Lamb</label>
+                <br><br>
+            </form>
+        </div>
+        <!-- cheese checkbox -->
+        <div class="container" id="cheese-menu">
+            <h2 class="h2-class">Choose as many cheese as you want!!!</h2>
+            <h6>Choose all that apply</h6>
+            <form action="/action_page.php">
+                <input type="checkbox" name="American" value="American" checked>
+                <label for="American">American</label>
+                <br>
+                <input type="checkbox" name="Swiss" value="Swiss">
+                <label for="Swiss">Swiss</label>
+                <br>
+                <input type="checkbox" name="Parmesan" value="Parmesan">
+                <label for="Parmesan">Parmesan</label>
+                <br>
+                <input type="checkbox" name="Cheddar" value="Cheddar">
+                <label for="Cheddar">Cheddar</label>
+                <br>
+                <input type="checkbox" name="Pepper jack" value="Pepper jack">
+                <label for="Pepper jack">Pepper jack</label>
+                <br>
+                <input type="checkbox" name="None" value="None">
+                <label for="None">None</label>
+                <br><br>
+            </form>
+            </div>
+        <!-- Veggie checkbox -->
+        <div class="container" id="veggie-menu">
+            <h2 class="h2-class">Select your veggies</h2>
+            <h6>Choose all that apply</h6>
+            <form action="/action_page.php">
+                <input type="checkbox" name="Spinach" value="Spinach" checked>
+                <label for="Spinach">Spinach</label>
+                <br>
+                <input type="checkbox" name="Lettuce" value="Lettuce">
+                <label for="Lettuce">Lettuce</label>
+                <br>
+                <input type="checkbox" name="Tomatoes" value="Tomatoes">
+                <label for="Tomatoes">Tomatoes</label>
+                <br>
+                <input type="checkbox" name="Green Peppers" value="Green Peppers">
+                <label for="Green Peppers">Green Peppers</label>
+                <br>
+                <input type="checkbox" name="Kale" value="Kale">
+                <label for="Kale">Kale</label>
+                <br>
+                <input type="checkbox" name="Pickles" value="Pickles">
+                <label for="Pickles">Pickles</label>
+                <br>
+                <input type="checkbox" name="Mushroom" value="Mushroom">
+                <label for="Mushroom">Mushroom</label>
+                <br>
+                <input type="checkbox" name="Onion" value="Onion">
+                <label for="Onion">Onion</label>
+                <br><br>
+            </form>
+            </div>
+        <!-- condiment checkbox -->
+        <div class="container" id="condiment-menu">
+            <h2>Choice Condiment?</h2>
+            <form action="/action_page.php">
+                <input type="checkbox" name="Mayonnaise" value="Mayonnaise" checked>
+                <label for="Mayonnaise">Mayonnaise</label>
+                <br>
+                <input type="checkbox" name="Mustard" value="Mustard">
+                <label for="Mustard">Mustard</label>
+                <br>
+                <input type="checkbox" name="Ranch" value="Ranch">
+                <label for="Ranch">Ranch</label>
+                <br>
+                <input type="checkbox" name="Hot sauce" value="Hot sauce">
+                <label for="Hot sauce">Ranch</label>
+                <br><br>
+            </form>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Make your sandwich">
+    </div> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
