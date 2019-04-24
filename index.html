@@ -18,13 +18,13 @@
         <div class="container" id="bread-menu">
             <h2 class="h2-class">What kind of Bread would you like?</h2>
             <form action="/action_page.php">
-                <input type="radio" name="Bread" value="White Bread" checked>
+                <input class="menu-selected" type="radio" name="Bread" value="White" >
                 <label for="White Bread">White Bread</label>
                 <br>
-                <input type="radio" name="Bread" value="Wheat Bread">
+                <input class="menu-selected" type="radio" name="Bread" value="Wheat">
                 <label for="Wheat Bread">Wheat Bread</label>
                 <br>
-                <input type="radio" name="Bread" value="Garlic Bread">
+                <input class="menu-selected" type="radio" name="Bread" value="Garlic">
                 <label for="Garlic Bread">Garlic Bread</label>
                 <br><br>
             </form>
@@ -34,22 +34,22 @@
             <h2 class="h2-class">We've got the Meats!!! Make your choices.</h2>
             <h6>Choose all that apply</h6>
             <form action="/action_page.php">
-                <input type="checkbox" name="Chicken" value="Chicken" checked>
+                <input class="menu-selected" type="checkbox" name="meat" id="Chicken" value="Chicken" >
                 <label for="Chicken">Chicken</label>
                 <br>
-                <input type="checkbox" name="Ham" value="Ham">
+                <input class="menu-selected" type="checkbox" name="meat" id="Ham" value="Ham">
                 <label for="Ham">Ham</label>
                 <br>
-                <input type="checkbox" name="Turkey" value="Turkey">
+                <input class="menu-selected" type="checkbox" name="meat" id="Turkey" value="Turkey">
                 <label for="Turkey">Turkey</label>
                 <br>
-                <input type="checkbox" name="Pork" value="Pork">
+                <input class="menu-selected" type="checkbox" name="meat" id="Pork" value="Pork">
                 <label for="Pork">Pork</label>
                 <br>
-                <input type="checkbox" name="Tuna" value="Tuna">
+                <input class="menu-selected" type="checkbox"name="meat"  id="Tuna" value="Tuna">
                 <label for="Tuna">Tuna</label>
                 <br>
-                <input type="checkbox" name="Lamb" value="Lamb">
+                <input class="menu-selected" type="checkbox" name="meat" id="Lamb" value="Lamb">
                 <label for="Lamb">Lamb</label>
                 <br><br>
             </form>
@@ -59,22 +59,22 @@
             <h2 class="h2-class">Choose as many cheese as you want!!!</h2>
             <h6>Choose all that apply</h6>
             <form action="/action_page.php">
-                <input type="checkbox" name="American" value="American" checked>
+                <input class="menu-selected"  type="checkbox" name="cheese" id ="American" value="American">
                 <label for="American">American</label>
                 <br>
-                <input type="checkbox" name="Swiss" value="Swiss">
+                <input class="menu-selected" type="checkbox" name="cheese" id ="Swiss" value="Swiss">
                 <label for="Swiss">Swiss</label>
                 <br>
-                <input type="checkbox" name="Parmesan" value="Parmesan">
+                <input class="menu-selected" type="checkbox" name="cheese" id ="Parmesan" value="Parmesan">
                 <label for="Parmesan">Parmesan</label>
                 <br>
-                <input type="checkbox" name="Cheddar" value="Cheddar">
+                <input class="menu-selected" type="checkbox"name="cheese" id ="Cheddar" value="Cheddar">
                 <label for="Cheddar">Cheddar</label>
                 <br>
-                <input type="checkbox" name="Pepper jack" value="Pepper jack">
-                <label for="Pepper jack">Pepper jack</label>
+                <input class="menu-selected" type="checkbox"name="cheese" id ="Blue" value="Blue">
+                <label for="Blue">Blue</label>
                 <br>
-                <input type="checkbox" name="None" value="None">
+                <input  class="menu-selected" type="checkbox"name="cheese" id ="None" value="None">
                 <label for="None">None</label>
                 <br><br>
             </form>
@@ -84,28 +84,28 @@
             <h2 class="h2-class">Select your veggies</h2>
             <h6>Choose all that apply</h6>
             <form action="/action_page.php">
-                <input type="checkbox" name="Spinach" value="Spinach" checked>
-                <label for="Spinach">Spinach</label>
+                <input class="menu-selected" type="checkbox" name="veggie" id ="Spinach" value="Spinach">
+                <label for="Spinach">Spinach</label> 
                 <br>
-                <input type="checkbox" name="Lettuce" value="Lettuce">
+                <input class="menu-selected" type="checkbox"  name="veggie" id ="Lettuce" value="Lettuce">
                 <label for="Lettuce">Lettuce</label>
                 <br>
-                <input type="checkbox" name="Tomatoes" value="Tomatoes">
+                <input class="menu-selected" type="checkbox" name="veggie" id ="Tomatoes" value="Tomatoes">
                 <label for="Tomatoes">Tomatoes</label>
                 <br>
-                <input type="checkbox" name="Green Peppers" value="Green Peppers">
-                <label for="Green Peppers">Green Peppers</label>
+                <input class="menu-selected" type="checkbox" name="veggie" id ="Peppers" value="Peppers">
+                <label for="Peppers">Peppers</label>
                 <br>
-                <input type="checkbox" name="Kale" value="Kale">
+                <input class="menu-selected" type="checkbox" name="veggie" id ="Kale" value="Kale">
                 <label for="Kale">Kale</label>
                 <br>
-                <input type="checkbox" name="Pickles" value="Pickles">
+                <input class="menu-selected" type="checkbox" name="veggie" id ="Pickles" value="Pickles">
                 <label for="Pickles">Pickles</label>
                 <br>
-                <input type="checkbox" name="Mushroom" value="Mushroom">
+                <input class="menu-selected" type="checkbox" name="veggie" iname="veggie" d ="Mushroom" value="Mushroom">
                 <label for="Mushroom">Mushroom</label>
                 <br>
-                <input type="checkbox" name="Onion" value="Onion">
+                <input class="menu-selected" type="checkbox" name="veggie" id ="Onion" value="Onion">
                 <label for="Onion">Onion</label>
                 <br><br>
             </form>
@@ -114,25 +114,26 @@
         <div class="container" id="condiment-menu">
             <h2>Choice Condiment?</h2>
             <form action="/action_page.php">
-                <input type="checkbox" name="Mayonnaise" value="Mayonnaise" checked>
+                <input class="menu-selected" type="checkbox" name="condiment" id="Mayonnaise" value="Mayonnaise">
                 <label for="Mayonnaise">Mayonnaise</label>
                 <br>
-                <input type="checkbox" name="Mustard" value="Mustard">
+                <input class="menu-selected" type="checkbox" name="condiment" id="Mustard" value="Mustard">
                 <label for="Mustard">Mustard</label>
                 <br>
-                <input type="checkbox" name="Ranch" value="Ranch">
+                <input class="menu-selected" type="checkbox" name="condiment" id="Ranch" value="Ranch">
                 <label for="Ranch">Ranch</label>
                 <br>
-                <input type="checkbox" name="Hot sauce" value="Hot sauce">
-                <label for="Hot sauce">Ranch</label>
+                <input class="menu-selected" type="checkbox" name="condiment" id="Sauce" value="Sauce">
+                <label for="Sauce">Sauce</label>
                 <br><br>
             </form>
             </div>
-            <input class="btn btn-primary" type="submit" value="Make your sandwich">
+            <input class="btn btn-primary" id = "sandwich-btn" type="submit" value="Make your sandwich">
     </div> 
+    <div id="cart"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./javascripts/main.js"></script>
+    <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>

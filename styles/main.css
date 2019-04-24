@@ -1,3 +1,9 @@
 body{
     background-color: snow;
 }
+#cart{
+    background-color:blue;
+    display:block;
+    padding:20px;
+    color:white;
+}

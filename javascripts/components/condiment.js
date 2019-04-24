@@ -1,7 +1,8 @@
 const condiment ={
-    mayo: 0.99,
-    mustard: 0.99,
-    ranch: 0.99,
+    Mayonnaise: 0.99,
+    Mustard: 0.99,
+    Ranch: 0.99,
+    Sauce: 0.89
 };
 const getCondiment = () => {
     return condiment;
