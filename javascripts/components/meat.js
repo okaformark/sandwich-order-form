@@ -1,10 +1,10 @@
 const meat = {
-    chicken: 1.19,
-    ham: 1.29,
-    turkey: 1.79,
-    pork: 1.39,
-    tuna: 1.89,
-    lamb: 2.09
+    Chicken: 1.19,
+    Ham: 1.29,
+    Turkey: 1.79,
+    Pork: 1.39,
+    Tuna: 1.89,
+    Lamb: 2.09
 };
 
 const getMeat = () => {
