@@ -4,7 +4,7 @@ import util from './helpers/util.js';
 const makeSandwich = () => {
   let domString = '';
   buttonEvents.arrayMenu.forEach((menu) => {
-    domString += `<div class = "row">`;
+    domString += `<div class = " card-body row">`;
     domString += `<h1>${menu}</h1>`;
     domString += `</div>`;
   });
