@@ -2,7 +2,7 @@ body{
     background-color: snow;
 }
 #cart{
-    background-color:blue;
+    background-image: url("https://prods3.imgix.net/images/articles/2017_04/Feature-restaurant-butcher-bakery-shops2.jpg?auto=format%2Ccompress&ixjsv=2.2.3&w=670");
     display:block;
     padding:20px;
     color:white;
