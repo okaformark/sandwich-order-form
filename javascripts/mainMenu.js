@@ -8,7 +8,7 @@ const makeSandwich = () => {
     domString += `<h1>${menu}</h1>`;
     domString += `</div>`;
   });
-  domString += `<h1>${buttonEvents.totalPriceGetter()}</h1>`;
+  domString += `<h1>Your Total is : $${buttonEvents.totalPriceGetter()}</h1>`;
   util.printToDom('cart', domString);
 }
 

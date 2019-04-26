@@ -13,9 +13,9 @@
         <img src="./styles/images/logo.png" class="logo">
         <p class="header-text"> Craving for some delicious sandwiches? We've got the best in town that not even kings can refuse. Select the sandwich that you want to eat and we will deliver it to you with supersonic speed.</p>
     </header>
-    <div class="menu col-12 col-md-5">
+    <div class=" container menu">
         <!-- bread checkbox -->
-        <div class="container" id="bread-menu">
+        <div class="container card card-body mb-3 border-danger" style="max-width: 18rem;" id="bread-menu">
             <h2 class="h2-class">What kind of Bread would you like?</h2>
             <form action="/action_page.php">
                 <input class="menu-selected" type="radio" name="Bread" value="White" >
@@ -30,7 +30,7 @@
             </form>
         </div>
         <!-- Meat optins -->
-        <div class="container" id="meat-menu">
+        <div class="container card card-body mb-3 border-danger"style="max-width: 18rem;" id="meat-menu">
             <h2 class="h2-class">We've got the Meats!!! Make your choices.</h2>
             <h6>Choose all that apply</h6>
             <form action="/action_page.php">
@@ -55,7 +55,7 @@
             </form>
         </div>
         <!-- cheese checkbox -->
-        <div class="container" id="cheese-menu">
+        <div class="container card card-body mb-3 border-danger" style="max-width: 18rem;" id="cheese-menu">
             <h2 class="h2-class">Choose as many cheese as you want!!!</h2>
             <h6>Choose all that apply</h6>
             <form action="/action_page.php">
@@ -78,9 +78,9 @@
                 <label for="None">None</label>
                 <br><br>
             </form>
-            </div>
+        </div>
         <!-- Veggie checkbox -->
-        <div class="container" id="veggie-menu">
+        <div class="container card card-body mb-3 border-danger" style="max-width: 18rem;" id="veggie-menu">
             <h2 class="h2-class">Select your veggies</h2>
             <h6>Choose all that apply</h6>
             <form action="/action_page.php">
@@ -109,9 +109,9 @@
                 <label for="Onion">Onion</label>
                 <br><br>
             </form>
-            </div>
+        </div>
         <!-- condiment checkbox -->
-        <div class="container" id="condiment-menu">
+        <div class="container card card-body mb-3 border-danger" style="max-width: 18rem;" id="condiment-menu">
             <h2>Choice Condiment?</h2>
             <form action="/action_page.php">
                 <input class="menu-selected" type="checkbox" name="condiment" id="Mayonnaise" value="Mayonnaise">
@@ -127,10 +127,11 @@
                 <label for="Sauce">Sauce</label>
                 <br><br>
             </form>
-            </div>
-            <input class="btn btn-primary" id = "sandwich-btn" type="submit" value="Make your sandwich">
+        </div>
+        <input class="btn btn-primary" id = "sandwich-btn" type="submit" value="Make your sandwich">
+        <div id="cart" class="card card-body mt-2 mb-2"></div>
     </div> 
-    <div id="cart"></div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
